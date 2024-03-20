@@ -35,6 +35,7 @@ To follow this guide, you need the following:
 |:---------------------|:------|
 | `NEXT_PUBLIC_ALGOLIA_APP_ID` | Your Algolia app ID |
 | `NEXT_PUBLIC_ALGOLIA_API_KEY` | Your Algolia Search Only API key. You can find this value in the **API keys > All API keys** section of your [Algolia account dashboard](https://dashboard.algolia.com/account/api-keys/restricted). If this is your first time using the new Algolia app, visit the **Search > Index** section of the Algolia dashboard and click the **Refresh index** button to generate your search index. |
+| `NEXT_PUBLIC_ALGOLIA_INDEXNAME` | Your Algolia Search Index name.  By Defualt the BigCommerce Algolia app uses the index name Bigcommerce. |
 
 4. Install the following dependencies in your Catalyst storefront:
 
