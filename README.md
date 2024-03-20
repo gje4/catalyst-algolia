@@ -3,7 +3,7 @@
 
 You can integrate Algolia search into Catalyst storefronts to help shoppers search all products, categories, and more.
 
-This guide demonstrates a basic integration and provides example code for global product search that you can add to the core code of your Catalyst storefront, or to `apps/core` in the Catalyst [monorepo](/docs/monorepo](https://github.com/bigcommerce/catalyst/blob/main/docs/monorepo.md)).
+This guide demonstrates a basic integration and provides example code for global product search that you can add to the core code of your Catalyst storefront, or to `apps/core` in the Catalyst [monorepo](https://github.com/bigcommerce/catalyst/blob/main/docs/monorepo.md).
 
 ## Demo site
 
@@ -25,7 +25,7 @@ To follow this guide, you need the following:
 
 ## Steps
 
-1. Configure the core codebase for the Catalyst storefront and get it running in dev mode. See [CLI setup]([/docs/cli](https://github.com/bigcommerce/catalyst/blob/main/docs/cli.md)) for quickstart instructions. If you configure Catalyst using the [Monorepo](/docs/monorepo](https://github.com/bigcommerce/catalyst/blob/main/docs/monorepo.md)), make sure the storefront is [associated with a BigCommerce store channel](https://developer.bigcommerce.com/docs/storefront/headless/channels).
+1. Configure the core codebase for the Catalyst storefront and get it running in dev mode. See [CLI setup](https://github.com/bigcommerce/catalyst/blob/main/docs/cli.md) for quickstart instructions. If you configure Catalyst using the [Monorepo](https://github.com/bigcommerce/catalyst/blob/main/docs/monorepo.md), make sure the storefront is [associated with a BigCommerce store channel](https://developer.bigcommerce.com/docs/storefront/headless/channels).
 
 2. At the top of your [Algolia dashboard](https://dashboard.algolia.com), create an Algolia app that you intend to associate exclusively with your Catalyst storefront channel.
 
