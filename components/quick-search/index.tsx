@@ -30,7 +30,7 @@ export const QuickSearch = ({ children }: SearchProps) => {
   );
 
   return (
-    <InstantSearch indexName="BigCommerce" searchClient={algoliaClient}>
+    <InstantSearch indexName={process.env.NEXT_PUBLIC_ALGOLIA_INDEXNAME} searchClient={algoliaClient}>
       <Sheet onOpenChange={setOpen} open={open}>
         <SheetTrigger asChild>
           <Button
