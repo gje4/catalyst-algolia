@@ -25,11 +25,11 @@ To follow this guide, you need the following:
 
 ## Steps
 
-1. Configure the core codebase for the Catalyst storefront and get it running in dev mode. See [CLI setup](/docs/cli) for quickstart instructions. If you configure Catalyst using the [Monorepo](/docs/monorepo), make sure the storefront is [associated with a BigCommerce store channel](https://developer.bigcommerce.com/docs/storefront/headless/channels).
+1. Configure the core codebase for the Catalyst storefront and get it running in dev mode. See [CLI setup]([/docs/cli](https://github.com/bigcommerce/catalyst/blob/main/docs/cli.md)) for quickstart instructions. If you configure Catalyst using the [Monorepo]([/docs/monorepo](https://github.com/bigcommerce/catalyst/blob/main/docs/monorepo.md)), make sure the storefront is [associated with a BigCommerce store channel](https://developer.bigcommerce.com/docs/storefront/headless/channels).
 
 2. At the top of your [Algolia dashboard](https://dashboard.algolia.com), create an Algolia app that you intend to associate exclusively with your Catalyst storefront channel.
 
-3. Install the [BigCommerce Algolia app](https://www.bigcommerce.com/apps/algolia-search-discovery/) and associate it with your Catalyst channel. Add the following Algolia-specific environment variables to the existing `.env.local` file in your Catalyst storefront. For more about other Catalyst environment variables, see [Environment variables](/docs/environment-variables).
+3. Install the [BigCommerce Algolia app](https://www.bigcommerce.com/apps/algolia-search-discovery/) and associate it with your Catalyst channel. Add the following Algolia-specific environment variables to the existing `.env.local` file in your Catalyst storefront. For more about other Catalyst environment variables, see [Environment variables](https://github.com/bigcommerce/catalyst/blob/main/docs/environment-variables.md).
 
 | Environment variable | Value |
 |:---------------------|:------|
