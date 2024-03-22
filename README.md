@@ -44,18 +44,14 @@ To follow this guide, you need the following:
   npm i -S algoliasearch
 ```
 
-5. Clone the [Algolia example repo](https://github.com/gje4/catalyst-algolia) in a directory parallel to your Catalyst storefront. Copy the `quick-search` directory into your Catalyst `components` directory.
-
-```shell copy
-git clone https://github.com/gje4/catalyst-algolia
-cd catalyst-algolia
-cp components/quick-search ../my-catalyst-storefront/components/quick-search
-cd ../my-catalyst-storefront/components/quick-search
-```
+5. Update the files in your Catalyst `/components/quick-search` directory to include the code from the [Algolia example repo](https://github.com/gje4/catalyst-algolia) `/components/quick-search` directory
+   
+  - Add the `algoliaSearchBox.tsx` and `algoliaSearchHits.tsx` files
+  - Update the `index.tsx` file
 
 Your storefront's file tree will mirror the following screenshot.
 
-[!A file tree with a components/quick-seach directory that contains the same files as the Algolia example repo](https://storage.googleapis.com/bigcommerce-production-dev-center/images/catalyst/algolia/algolia-integration-file-tree.png)
+![A file tree with a components/quick-seach directory that contains the same files as the Algolia example repo](https://storage.googleapis.com/bigcommerce-production-dev-center/images/catalyst/algolia/algolia-integration-file-tree.png)
 
 6. In `components/quick-search/index.tsx`, update the value of `algoliaClient` to use your correct `indexName`. By default, the BigCommerce Algolia app names the search index `BigCommerce`.
 
